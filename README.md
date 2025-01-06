@@ -14,40 +14,41 @@ Prisma: Database ORM for managing and querying the database.
 ShadCN UI Components: For a sleek, responsive, and user-friendly interface.
 ArcJet: Used to validate email addresses and prevent temporary or random emails from being stored in the database, ensuring secure and reliable user data.
 
-#Screenshot 
+##Screenshot 
 
-this is the simple home page 
+This is the simple home page 
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P1.png)
 
 
-this is the sign up whereby the email doesnt have an mx record which is a type of DNS record that specifies the mail server responsible for receiving emails for a domain. 
-hence, ArcJet validates email domains by checking for the presence of an MX record to ensure that the provided email is from a valid and active domain.
+This is the sign-up page where the email domain does not have an MX record, which is a type of DNS record that specifies the mail server for receiving emails. ArcJet validates email domains by checking for the presence of an MX record to ensure the provided email is from a valid and active domain.
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P2.png)
 
-this is with a valid domain
+This is with a valid domain
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P3.png)
 
-this is the login page
+This is the login page
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P4.png)
 
-this is the simple dashboard after successful login
+This is the simple dashboard after successful login
 
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P5.png)
 
 
 
-this is the record of the user in the prisma database
+This is the user's record in the Prisma database.
 
 ![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P6.png)
 
 
 
 #################################
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
