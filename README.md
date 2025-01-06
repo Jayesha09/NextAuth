@@ -1,3 +1,53 @@
+NextAuth- authentication system
+
+This project implements a secure and scalable authentication system using Better Auth, integrated with Next.js for the frontend and Prisma as the database layer. Built to simplify credentials-based authentication, this system leverages the robust features of Better Auth, providing a seamless and user-friendly experience for login, sign-up, and user management. The application incorporates best practices for modern web development, utilizing ShadCN UI components for a sleek and responsive interface.
+
+Additionally, the project integrates tools like ArcJet for enhanced development workflows and debugging, ensuring optimal performance and maintainability. By combining these cutting-edge tools, this authentication system serves as a strong foundation for building secure and efficient web applications.
+
+
+
+
+Technologies and Tools Used
+Next.js: For building the frontend and server-side rendering.
+Better Auth: Simplified credentials-based authentication system.
+Prisma: Database ORM for managing and querying the database.
+ShadCN UI Components: For a sleek, responsive, and user-friendly interface.
+ArcJet: Used to validate email addresses and prevent temporary or random emails from being stored in the database, ensuring secure and reliable user data.
+
+#Screenshot 
+
+this is the simple home page 
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P1.png)
+
+
+this is the sign up whereby the email doesnt have an mx record which is a type of DNS record that specifies the mail server responsible for receiving emails for a domain. 
+hence, ArcJet validates email domains by checking for the presence of an MX record to ensure that the provided email is from a valid and active domain.
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P2.png)
+
+this is with a valid domain
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P3.png)
+
+this is the login page
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P4.png)
+
+this is the simple dashboard after successful login
+
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P5.png)
+
+
+
+this is the record of the user in the prisma database
+
+![image alt](https://github.com/Jayesha09/NextAuth/blob/d8002e55b7ea0228ed905ccebe226e1d461c4abc/P6.png)
+
+
+
+#################################
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
