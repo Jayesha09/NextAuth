@@ -49,7 +49,7 @@ export default function SignIn() {
       {
         onRequest: () => {
           toast({
-            title: "Please wait",
+            title: "Please wait...",
           });
         },
         onSuccess: () => {
@@ -60,6 +60,16 @@ export default function SignIn() {
         },
       }
     );
+
+    if (error) {
+      toast({
+        title: error.message,
+        variant: "destructive",
+      });
+      return;
+    }
+
+    console.log("Sign-up successful:", data);
   }
   return (
     <Card className="w-full max-w-md mx-auto ">
@@ -112,7 +122,7 @@ export default function SignIn() {
 
       <CardFooter className="flex justify-center">
         <p className="text-sm text-muted-foreground">
-          Don't have an account yet?{" "}
+          {" Don't have an account yet?"}
           <Link href="/sign-up" className="text-primary hover:underline">
             Sign up
           </Link>

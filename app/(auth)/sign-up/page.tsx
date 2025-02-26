@@ -67,6 +67,16 @@ export default function SignUp() {
         },
       }
     );
+
+    if (error) {
+      toast({
+        title: error.message,
+        variant: "destructive",
+      });
+      return;
+    }
+
+    console.log("Sign-up successful:", data);
   }
   return (
     <Card className="w-full max-w-md mx-auto">
